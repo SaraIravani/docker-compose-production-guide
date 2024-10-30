@@ -37,7 +37,7 @@ services:
 ## 3. Optimize Database Access with Connection Pooling
 **Why:** Database connection pooling limits connections, reducing latency and improving response times under heavy loads.
 
-**How: **If using a PostgreSQL database, add pooling configurations in your environment variables.
+**How:**If using a PostgreSQL database, add pooling configurations in your environment variables.
 
 **Example:**
 ```yaml
