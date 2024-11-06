@@ -99,6 +99,7 @@ services:
       - "9090:9090"
 ```
 
+---
 🔐 Log Security
 Logs can contain sensitive information, so securing them is paramount. Use encryption, access controls, and compliance best practices to ensure log data is protected.
 
@@ -107,17 +108,21 @@ Encrypt logs to prevent unauthorized access.
 Restrict log access using role-based access controls (RBAC).
 Mask sensitive data like passwords or credit card numbers in logs.
 
+---
 💡 Additional Tips:
 Use Fluentd for Log Aggregation: Fluentd can be used as an alternative to the ELK stack for aggregating logs and forwarding them to external systems.
 Ensure Logs are Stored Permanently: Make sure logs are stored securely and retained according to your organization's policies.
 Regular Audits: Perform regular audits of your log data to ensure compliance and detect potential security breaches.
 
-
+---
 📌 Final Thoughts
 By following these log management best practices, you can ensure that your Docker Compose environment is both secure and reliable. Properly managed logs provide insights that help you maintain system performance, troubleshoot issues efficiently, and ensure the safety of your services.
 
+---
+
 🔒 Remember: Consistent and secure log management isn't just about tracking errors—it's about maintaining the overall health of your system and ensuring a smooth user experience.
 
+---
 📈 Further Reading:
 Docker Logging Documentation
 ELK Stack Guide
