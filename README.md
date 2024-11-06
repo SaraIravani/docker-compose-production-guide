@@ -9,7 +9,7 @@ Welcome to the **Docker Compose Production Guide**! This repository serves as a 
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Performance Optimization](Performance.md)
-- [Docker Compose Security Best Practices](Security.md)
+- [Security Best Practices](Security.md)
 - [Log Management](LogManagement.md)
 - [Volume Management](Volumes.md)
 - [Networking](Networking.md)
