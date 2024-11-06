@@ -61,7 +61,7 @@ services:
       - no-new-privileges:true
 ```
 Explanation: The no-new-privileges option ensures that no process within the container can gain additional privileges.
-گگگ÷÷```
+```
 ## ⚠️ Capability Drop (cap_drop)
 Dropping unnecessary Linux capabilities is an effective way to limit a container's permissions and mitigate security risks.
 
@@ -83,4 +83,3 @@ Explanation: The above configuration drops unnecessary capabilities, reducing th
 - Use Docker Secrets for Sensitive Data: Avoid hardcoding secrets; instead, use Docker Secrets or environment variables.
 - Implement Logging: Enable logging to monitor and audit containers for potential security events.
 
-گگگگ
