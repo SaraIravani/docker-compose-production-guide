@@ -61,7 +61,7 @@ services:
       - no-new-privileges:true
 ```
 Explanation: The no-new-privileges option ensures that no process within the container can gain additional privileges.
-```
+
 ## ⚠️ Capability Drop (cap_drop)
 Dropping unnecessary Linux capabilities is an effective way to limit a container's permissions and mitigate security risks.
 
