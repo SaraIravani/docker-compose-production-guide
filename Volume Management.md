@@ -154,6 +154,7 @@ Explanation:
 App Data Volume: The web service stores its application data in the app-data volume, which ensures that even if the container is recreated, the data remains intact.
 Redis Data Volume: The redis service persists its cache and state in the redis-data volume, ensuring the Redis instance maintains its data even across restarts.
 Postgres Data Volume: The database service persists Postgres database data in the postgres-data volume, allowing for reliable and consistent database storage.
+```
 ---
 ##  Best Practices for Volume Management
 To ensure efficient and secure volume management, consider the following best practices:
@@ -176,7 +177,7 @@ Over time, unused volumes may accumulate and take up disk space. You can remove 
 volumes:
   - ./host-directory:/container-directory
 ```
----
+
 ## 🧰 Advanced Volume Configuration
 For more advanced use cases, Docker supports a variety of volume drivers that provide more control over storage configurations. Some useful features include:
 
