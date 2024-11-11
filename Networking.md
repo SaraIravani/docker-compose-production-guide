@@ -8,8 +8,6 @@ Effective network configuration is essential for enhancing security, improving p
 2. **⚙️ Scalability**: Segmenting networks allows you to scale different parts of your application independently, making it easier to manage and monitor large systems.
 3. **⚡ Performance**: Limiting communication between unnecessary services can reduce latency and optimize the performance of your application.
 
-![Network Configuration](https://via.placeholder.com/800x400?text=Network+Configuration+Example)
-
 ## 🔑 Key Concepts
 
 - **Network Isolation**: By isolating your services into separate networks, you can enforce security policies and restrict access between different parts of your application.
@@ -84,3 +82,9 @@ networks:
 Enhanced Security: Network isolation reduces the risk of unauthorized access and protects sensitive services such as databases.
 Easier Management: Segmenting services into isolated networks simplifies monitoring, troubleshooting, and scaling.
 Improved Performance: By limiting unnecessary service communication, you can reduce latency and improve overall system performance.
+
+---
+
+## 📘 Further Reading:
+- [Docker Networking Documentation](https://docs.docker.com/network/)
+- [Docker Compose Networking Guide](https://docs.docker.com/compose/networking/)
