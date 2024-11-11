@@ -54,9 +54,9 @@ networks:
     driver: bridge
 ```
 ### 🌐 Explanation:
-    Frontend Network: The web service is isolated on the frontend network, ensuring it is only accessible to frontend services.
-    Backend Network: The api and database services are placed on the backend network, enabling them to communicate securely while being isolated from the frontend services.
-    Separation of Concerns: Isolating the frontend and backend helps protect sensitive data, such as database credentials, from being exposed to unauthorized services.
+  Frontend Network: The web service is isolated on the frontend network, ensuring it is only accessible to frontend services.
+  Backend Network: The api and database services are placed on the backend network, enabling them to communicate securely while being isolated from the frontend services.
+  Separation of Concerns: Isolating the frontend and backend helps protect sensitive data, such as database credentials, from being exposed to unauthorized services.
 
 ## Additional Considerations
 
