@@ -53,13 +53,15 @@ networks:
   backend:
     driver: bridge
 ```
-## 🌐 Explanation:
-Frontend Network: The web service is isolated on the frontend network, ensuring it is only accessible to frontend services.
-Backend Network: The api and database services are placed on the backend network, enabling them to communicate securely while being isolated from the frontend services.
-Separation of Concerns: Isolating the frontend and backend helps protect sensitive data, such as database credentials, from being exposed to unauthorized services.
+### 🌐 Explanation:
+    Frontend Network: The web service is isolated on the frontend network, ensuring it is only accessible to frontend services.
+    Backend Network: The api and database services are placed on the backend network, enabling them to communicate securely while being isolated from the frontend services.
+    Separation of Concerns: Isolating the frontend and backend helps protect sensitive data, such as database credentials, from being exposed to unauthorized services.
 
 ## Additional Considerations
+
 💡 Using Aliases for Easy Communication: You can define network aliases to simplify communication between services within the same network.
+
 ```
 services:
   api:
@@ -70,11 +72,14 @@ services:
           - api-service
 ```
 🌍 Accessing External Networks: If your services need to connect to external systems, such as Redis or a message queue, you can connect them to an external network.
+
 ```
 networks:
   external-network:
     external: true
 ```
+---
+
 ## 🔒 Benefits of Proper Network Configuration
 Enhanced Security: Network isolation reduces the risk of unauthorized access and protects sensitive services such as databases.
 Easier Management: Segmenting services into isolated networks simplifies monitoring, troubleshooting, and scaling.
