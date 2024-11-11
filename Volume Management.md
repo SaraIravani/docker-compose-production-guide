@@ -121,15 +121,15 @@ volumes:
 ```
 ---
 
-##🏁 Conclusion
+# 🏁 Conclusion
+
 Effective volume management is a cornerstone of maintaining data persistence and reliability in Docker Compose setups. By using named volumes and following best practices, you can ensure your application and database data are safely stored, easily backed up, and resilient to container restarts.
 
-Key Takeaways:
-Volumes ensure that data is persisted across container lifecycles.
-Use named volumes like app-data, redis-data, and postgres-data to manage application and database data efficiently.
-Follow best practices to optimize performance, security, and reliability.
----
+## Key Takeaways:
+- Volumes ensure that data is persisted across container lifecycles.
+- Use named volumes like `app-data`, `redis-data`, and `postgres-data` to manage application and database data efficiently.
+- Follow best practices to optimize performance, security, and reliability.
 
 ## 📘 Further Reading:
-- Docker Volumes Documentation
-- Docker Compose Reference
+- [Docker Volumes Documentation](https://docs.docker.com/storage/volumes/)
+- [Docker Compose Reference](https://docs.docker.com/compose/)
